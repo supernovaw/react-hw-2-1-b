@@ -1,0 +1,56 @@
+.news-header {
+  padding: 5px 0;
+}
+
+.news-header span {
+  color: #6a82ca;
+  margin-left: 25px;
+  font-size: 120%;
+  cursor: pointer;
+}
+
+.news-header span:first-child {
+  margin-left: 0;
+  color: #28459c
+}
+
+.news-header .time {
+  cursor: default;
+  color: #aaa;
+  font-size: 70%;
+}
+
+.headline {
+  font-size: 90%;
+  margin-top: 6px;
+  width: 70%;
+  position: relative;
+}
+
+.headline img {
+  position: absolute;
+  top: 0.5em;
+  transform: translate(-20px, -50%);
+}
+
+.Trading {
+  margin-top: 10px;
+}
+
+.Trading::after {
+  color: lightgrey;
+  content: '···';
+}
+
+.listed-currency {
+  margin-right: 25px;
+}
+
+.listed-currency .value {
+  margin-left: 10px;
+}
+
+.listed-currency .change {
+  margin-left: 10px;
+  color: grey;
+}

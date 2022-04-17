@@ -1,0 +1,16 @@
+.App {
+  text-align: left;
+  padding-left: 100px;
+  width: 80%;
+  margin: auto;
+}
+
+.Banner {
+  margin-top: 15px;
+  box-shadow: 1px 1px 5px lightgrey;
+  width: 70vw;
+  max-width: 800px;
+  aspect-ratio: 8;
+  object-fit: cover;
+  object-position: 0 calc(max(-19vw, -217px));
+}

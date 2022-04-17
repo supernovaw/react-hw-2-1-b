@@ -1,0 +1,31 @@
+.InputBar {
+  border-right: none;
+  display: flex;
+}
+
+.InputBar input {
+  border: 2px solid #ffd85d;
+  width: 100%;
+  padding: 8px 12px;
+  outline: none;
+  font: inherit;
+  font-size: 16px;
+}
+
+.InputBar .find-button {
+  background-color: #ffd85d;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 5px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.InputBar .end-triangle {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 12px solid #ffd85d;
+}

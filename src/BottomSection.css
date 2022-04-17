@@ -1,0 +1,60 @@
+.BottomSection {
+  margin-bottom: 30px 0;
+  display: flex;
+  font-size: 90%;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.BottomSection .column {
+  flex: 1;
+}
+
+.Service {
+  padding: 15px 0;
+}
+
+.Service .header {
+  font-size: 150%;
+  color: #28459c;
+  padding-bottom: 5px;
+}
+
+.WeatherService img {
+  vertical-align: middle;
+}
+
+.WeatherService .temperature {
+  display: inline-block;
+  font-size: 170%;
+  margin-left: 10px;
+}
+
+.WeatherService .forecast {
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.VisitedService div {
+  margin-top: 8px;
+}
+
+.TvScheduleService div {
+  margin-top: 8px;
+}
+
+.TvScheduleService span:nth-child(1) {
+  display: inline-block;
+  width: 46px;
+  font-size: 14px;
+}
+
+.TvScheduleService span:nth-child(2) {
+  margin-right: 15px;
+}
+
+.TvScheduleService span:nth-child(3) {
+  font-size: 14px;
+  color: grey;
+}

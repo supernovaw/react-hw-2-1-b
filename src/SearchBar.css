@@ -1,0 +1,35 @@
+.SearchBar {
+  position: relative;
+  margin-top: 20px;
+}
+
+.logo {
+  position: absolute;
+  transform: translateX(-120px);
+  margin-top: 25px;
+}
+
+.search-sections {
+  padding: 5px 0;
+}
+
+.search-sections span {
+  color: #5169b1;
+  margin-left: 15px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.search-sections span:first-child {
+  margin-left: 0;
+}
+
+.slogan {
+  margin-top: 5px;
+  font-size: 90%;
+}
+
+.slogan-example {
+  color: grey;
+  cursor: pointer;
+}
